@@ -20,9 +20,6 @@ let i;
 
 // prime numbers:
         for(i=1; i<=20; i+=1){
-            if (i==1){
-                document.getElementById('display').innerHTML
-            }
             if (i==2 || i==3 || i==5 || i==7){
              document.getElementById('display').innerHTML += i + "<br>";
             }
